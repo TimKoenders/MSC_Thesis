@@ -24,17 +24,16 @@ First, we collect data of all climate policies implemented worldwide via the IEA
 
 Manifestos from various countries and election periods are subjected to advanced text-mining techniques, including topic modeling and sentiment analysis. Topic modeling may help objectively categorize and visualize the ideas political parties are promoting while sentiment analysis has the potential to show each political party’s attitude towards a policy idea. This process yields topic relevance and sentiment scores, forming the basis for a comprehensive party preference index. Specifically, to estimate how parties feel about government intervention towards limiting climate change, a party’s position is estimated using the following steps:
 
-• Use topic modeling to find the climate-change related topics;
+• We use topic modeling to find the climate-change related topics;
 
-• Use the key words making up the topic to find every sentence in a party’s manifesto that mentions that topic;
+• We use the key words making up the topic to find every sentence in a party’s manifesto that mentions that topic;
 
-• Apply the VADER algorithm to each of those sentences to estimate the sentiment of
-that sentence;
+• We apply the VADER algorithm to each of those sentences to estimate the sentiment of that sentence;
 
-• Create a party’s total sentiment score on that topic by calculating the average polarity score across all the sentences in a manifesto mentioning that topic and multiplying it by the log of the number of times (sentences) a party mentions the topic in their manifesto. Multiplying by the number of times a party mentions a topic helps account for the importance a party places on that topic. Taking the log reduces the effects of sizable variations in the number of mentions. Some parties, for example, will not mention a topic at all.
+• We create a party’s total sentiment score on that topic by calculating the average polarity score across all the sentences in a manifesto mentioning that topic and multiplying it by the log of the number of times (sentences) a party mentions the topic in their manifesto. Multiplying by the number of times a party mentions a topic helps account for the importance a party places on that topic. Taking the log reduces the effects of sizable variations in the number of mentions. Some parties, for example, will not mention a topic at all.
 
-• From this party specific index, create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
+• From this party specific index, we create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
 
-• By correlating this election-country-specific index with real-world data on climate policies, this project builds upon political economy theory and investigates patterns and trends, providing data-driven insights into the impact of political ideologies on environmental policy outcomes.
+• By correlating this election-country-specific index with real-world data on climate policies, we build upon political economy theory and investigates patterns and trends, providing data-driven insights into the impact of political ideologies on environmental policy outcomes.
 
 
