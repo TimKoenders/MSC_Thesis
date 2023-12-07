@@ -18,11 +18,11 @@ This research employs text mining techniques to analyze political party manifest
 
 # 3 Motivation
 
-The examination of the relationship between party ideologies and climate change policy remains a relatively understudied area within political science. In an effort to contribute to this discourse, Farstad et al. (2017) investigated the salience of climate change in party manifestos, utilizing data from the Comparative Manifesto Project (CMP). Their findings underscore the pivotal role of left–right ideology in explaining variations in climate change salience, surpassing the influence of other party characteristics. This highlights the profound impact of ideological positions in shaping party stances on environmental issues.
+The examination of the relationship between party ideologies and climate change policy remains a relatively understudied area within political economy research. In an effort to contribute to this discourse, Farstad et al. (2017) investigated the salience of climate change in party manifestos, utilizing data from the Comparative Manifesto Project (CMP). Their findings underscore the pivotal role of left–right ideology in explaining variations in climate change salience, surpassing the influence of other party characteristics. This highlights the profound impact of ideological positions in shaping party stances on environmental issues.
 
 However, the reliance on hand-coded CMP data introduces methodological and theoretical challenges, as outlined by Gemenis (2017) in four distinct areas: (1) theoretical underpinnings of the coding scheme; (2) document selection; (3) coding reliability; and (4) scaling. Beyond these general challenges, our specific context introduces more serious concerns. Notably, the absence of any mention of climate change in the CMP codebook until 2014 raises fundamental issues related to content validation. Consequently, the salience of issues spanning multiple categories may be underestimated, and certain measures may omit crucial elements of climate policy, such as renewable energy and energy efficiency measures, which are present in other categories. Conversely, some measures may include elements that clearly fall outside any reasonable definition of climate policy.
 
-Recognizing these limitations, recent advancements in automated text analysis methods offer a promising avenue for refining our understanding of party ideologies and climate change policy. Orellana and Bisgin (2023) exemplify the efficacy of Natural Language Processing (NLP) in analyzing New Zealand political party manifestos. Their study not only highlights the potential of NLP for tasks such as estimating document similarity, topic modeling, and sentiment analysis but also emphasizes the need for fine-tuning in the application of these techniques. By leveraging NLP and textual analysis, we can potentially overcome some of the challenges associated with hand-coded data and better identify parties ideologies towards climate action.
+Recognizing these limitations, recent advancements in automated text analysis methods offer a promising avenue for refining our understanding of party ideologies and climate change policy. Orellana and Bisgin (2023) exemplify the efficacy of Natural Language Processing (NLP) in analyzing New Zealand political party manifestos. Their study not only highlights the potential of NLP for tasks such as estimating document similarity, topic modeling, and sentiment analysis but also emphasizes the need for fine-tuning in the application of these techniques. By leveraging NLP and textual analysis, we can potentially overcome some of the challenges associated with hand-coded data and better identify the ideologies of parties towards climate action.
 
 # 4 Data
 
@@ -54,7 +54,7 @@ This research is highly relevant in the current global context where climate cha
 
 Farstad, F. M., (2017). What explains variation in parties’ climate change salience? Party Politics, 24(6). https://doi.org/10.1177/13540688176934
 
-Gemenis, K. (2017). What to do (and not to do) with the Comparative Manifestos Project Data. Journal Name, 61(1_suppl). https://doi.org/10.1111/1467-9248.12015
+Gemenis, K. (2017). What to do (and not to do) with the Comparative Manifestos Project Data. Political Studies, 61(1_suppl). https://doi.org/10.1111/1467-9248.12015
 
 Orellana, S., & Bisgin, H. (2023). Using Natural Language Processing to Analyze Political Party Manifestos from New Zealand. Information, 14(3), 152. https://doi.org/10.3390/info14030152
 
