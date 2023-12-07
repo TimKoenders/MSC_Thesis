@@ -14,7 +14,7 @@ Tim Koenders
 
 # 2 Introduction
 
-This research employs text mining techniques to analyze political party manifestos from the Manifesto Project across diverse countries and election periods. First, the study aims to create a nuanced party preference index, measuring each party's stance on government intervention for environmentally sustainable economic practices. Second, a country-election-specific index is created by weighting the party preference index by their respective vote shares to account for varying levels of bargaining  power of parties in political coalitions. Finally, the study uses this index to help to explain how many climate policies governments implement each election period.
+This research employs text mining techniques to analyze political party manifestos from the Manifesto Project across diverse countries and election periods. First, the study aims to create a nuanced party preference index, measuring each party's stance on government intervention for environmentally sustainable economic practices. Second, an country-election-specific index is created by weighting the party preference index by their respective vote shares to account for varying levels of bargaining  power of parties in political coalitions. Finally, the study uses this index to help to explain how many climate policies governments implement each election period.
 
 # 3 Data
 
