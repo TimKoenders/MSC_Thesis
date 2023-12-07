@@ -10,7 +10,7 @@ Tim Koenders
 
 1. How do political party preferences towards climate policy, as derived from manifesto analysis, correlate with the actual implementation of climate policies in different countries and election periods?
 
-2. What patterns and trends can be discerned by creating a comprehensive party preference index and examining its relationship with real-world climate policy outcomes?
+2. What patterns and trends can be discerned by creating an election-country-specific index and examining its relationship with real-world climate policy outcomes?
 
 # 2 Introduction
 
