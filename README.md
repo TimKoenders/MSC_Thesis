@@ -20,8 +20,7 @@ This research employs text mining techniques to analyze political party manifest
 
 # 4 Data
 
-First, we collect data of all climate policies implemented worldwide via the IEA’s Policies and Measures Database. Second, we collect election and manifesto data from The Manifesto Project which documents political parties' election manifestos in order to study their policy preferences. Currently, the idea is to focus on English-speaking countries as those manifestos are presented in the English language and there will be no need for complex multilingual textual analysis. Finally, we collect macroeconomic data from the World Economic Outlook Database to control for various factor that influence the number of climate policies implemented. Possibly other data will be collected to make the analysis more robust.  
-
+First, we collect data of all climate policies implemented worldwide via the IEA’s Policies and Measures Database. Second, we collect election and manifesto data from The Manifesto Project which documents political parties' election manifestos in order to study their policy preferences. Currently, the idea is to focus on English-speaking countries as those manifestos are presented in the English language and there will be no need for complex multilingual textual analysis. Finally, we collect macroeconomic data from the World Economic Outlook Database to control for various factor that influence the number of climate policies implemented. 
 # 5 Methology
 
 Manifestos from various countries and election periods are subjected to advanced text-mining techniques, including topic modeling and sentiment analysis. Topic modeling may help objectively categorize and visualize the ideas political parties are promoting while sentiment analysis has the potential to show each political party’s attitude towards a policy idea. This process yields topic relevance and sentiment scores, forming the basis for a comprehensive party preference index. Specifically, to estimate how parties feel about government intervention towards limiting climate change, a party’s position is estimated using the following steps:
@@ -33,6 +32,8 @@ Manifestos from various countries and election periods are subjected to advanced
 • We apply the VADER algorithm to each of those sentences to estimate the sentiment of that sentence;
 
 • We create a party’s total sentiment score on that topic by calculating the average polarity score across all the sentences in a manifesto mentioning that topic and multiplying it by the log of the number of times (sentences) a party mentions the topic in their manifesto. Multiplying by the number of times a party mentions a topic helps account for the importance a party places on that topic. Taking the log reduces the effects of sizable variations in the number of mentions. Some parties, for example, will not mention a topic at all.
+
+From this party specific preference index, 
 
 • We create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
 
