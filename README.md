@@ -34,6 +34,6 @@ Manifestos from various countries and election periods are subjected to advanced
 
 • We create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
 
-• By correlating this election-country-specific index with real-world data on climate policies, we build upon political economy theory and investigates patterns and trends, providing data-driven insights into the impact of political ideologies on environmental policy outcomes.
+• By correlating this election-country-specific index with real-world data on climate policies, we build upon political economy theory and investigate patterns and trends, providing data-driven insights into the impact of political ideologies on environmental policy outcomes.
 
 
