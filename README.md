@@ -32,7 +32,7 @@ Manifestos from various countries and election periods are subjected to advanced
 
 • We create a party’s total sentiment score on that topic by calculating the average polarity score across all the sentences in a manifesto mentioning that topic and multiplying it by the log of the number of times (sentences) a party mentions the topic in their manifesto. Multiplying by the number of times a party mentions a topic helps account for the importance a party places on that topic. Taking the log reduces the effects of sizable variations in the number of mentions. Some parties, for example, will not mention a topic at all.
 
-• From this party specific index, we create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
+• We create an election-country-specific index by creating a weighted average of the party specific index where the weights are equal to their respective vote shares.
 
 • By correlating this election-country-specific index with real-world data on climate policies, we build upon political economy theory and investigates patterns and trends, providing data-driven insights into the impact of political ideologies on environmental policy outcomes.
 
