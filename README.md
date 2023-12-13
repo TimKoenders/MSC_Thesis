@@ -52,7 +52,7 @@ This research is highly relevant in the current global context where climate cha
 
 # References
 
-Farstad, F. M., (2017). What explains variation in parties’ climate change salience? Party Politics, 24(6). https://doi.org/10.1177/13540688176934
+Farstad, F. M., (2017). What explains variation in parties’ climate change salience? Party Politics, 24(6). [https://doi.org/10.1177/13540688176934](https://eprints.whiterose.ac.uk/112890/)
 
 Gemenis, K. (2017). What to do (and not to do) with the Comparative Manifestos Project Data. Political Studies, 61(1_suppl). https://doi.org/10.1111/1467-9248.12015
 
